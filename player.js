@@ -3,7 +3,7 @@ function callID(){
 	var callSymbol = document.getElementById("callsymbol").value.toUpperCase();
 	    console.log(callSymbol);
             if(callSymbol == "WHYN"){
-   			    	$("#player").attr('src', 'http://api.dar.fm/player_api.php?callsign=' + callSymbol + '-fm&onnow_display=true&station_display=true&volume_display=true');
+   			    	$("#player").attr('src', 'https://api.dar.fm/player_api.php?callsign=' + callSymbol + '-fm&onnow_display=true&station_display=true&volume_display=true');
         			return false;
         			}
    	    	else if(callSymbol=="WKSS"){
