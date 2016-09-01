@@ -1,6 +1,6 @@
 <html>
   <body>
-    <php
+    <?php
 if (isset($_GET['url'])) {
     $url = $_GET['url'];
     $ch = curl_init();
@@ -12,6 +12,6 @@ if (isset($_GET['url'])) {
     curl_close($ch);
     echo $data;
 }
->
+?>
 </body>
 </html>
